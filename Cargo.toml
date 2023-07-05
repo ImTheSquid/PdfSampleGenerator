@@ -1,0 +1,12 @@
+[package]
+name = "pdf-sample-gen"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+chrono = "0.4.26"
+fake = { version = "2.6.1", features = ["rust_decimal", "chrono"] }
+rand = "0.8.5"
+regex = "1.8.4"
+rust_decimal = "1.29.1"
+tectonic = "0.14.0"
